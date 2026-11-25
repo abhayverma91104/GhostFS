@@ -1,0 +1,45 @@
+# C++ build artifacts
+engine/build/
+engine/build-*/
+engine/.cache/
+compile_commands.json
+.ghostfs_pids/
+
+# Python backend
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+.pytest_cache/
+*.pyc
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+
+# Runtime disk images & generated forensic exports
+disk_images/*.gfs
+disk_images/*.gfs.lock
+disk_images/sandbox/*.gfs
+disk_images/sandbox/*.gfs.lock
+disk_images/sandbox/*.json
+reports/*.pdf
+reports/*.csv
+reports/recovered/*
+!reports/recovered/.gitkeep
+reports/corruption/*
+reports/generated/*
+!reports/generated/.gitkeep
+
+# Playwright & E2E browser testing
+frontend/test-results/
+frontend/playwright-report/
+frontend/blob-report/
+frontend/playwright/.cache/
+e2e/screenshots/
+test-results/
+playwright-report/
+
+# OS / Editor
+.DS_Store
+.vscode/
