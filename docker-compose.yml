@@ -1,0 +1,8 @@
+services:
+  ghostfs:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./disk_images:/app/disk_images
+      - ./reports:/app/reports

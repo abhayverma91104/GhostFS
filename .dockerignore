@@ -1,0 +1,13 @@
+engine/build*
+backend/.venv
+backend/__pycache__
+frontend/node_modules
+frontend/dist
+frontend/test-results
+test-results
+.ghostfs_pids
+disk_images/*.gfs
+disk_images/sandbox/*
+reports/generated/*
+reports/recovered/*
+.DS_Store
